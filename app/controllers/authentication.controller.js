@@ -7,11 +7,13 @@ dotenv.config();
 const usuarios =[{
   user:"a",
   email:"a@a.com",
-  password:"$2a$10$mpMJ2o96Vvo.AkcG8nnJjeZxgH.XCKN0kjROnl/aREBf0xDsxoufW"
+  password:"$2a$10$mpMJ2o96Vvo.AkcG8nnJjeZxgH.XCKN0kjROnl/aREBf0xDsxoufW",
+  role:"admin"
 }, {
   user:"b",
   email:"b@a.com",
-  password:"$2a$10$7kgjxHAc3AVf.TefCDsudet8LuVv4GE9tpuTX.7CJyeajUPQdEac6"
+  password:"$2a$10$7kgjxHAc3AVf.TefCDsudet8LuVv4GE9tpuTX.7CJyeajUPQdEac6",
+  role:"user"
 }
 ]
 

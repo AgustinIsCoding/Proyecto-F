@@ -18,6 +18,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(express.json()); //para que los datos se envíen como json
 app.use(cookieParser())
 //rutas
+//poner authorization dependiendo del role
 app.get("/login",authorization.soloPublico,(req, res)=> res.sendFile(__dirname + "/pages/login.html"))
 app.get("/home", (req, res)=> res.sendFile(__dirname + "/pages/home/home.html"))
 app.get("/register",authorization.soloPublico, (req, res)=> res.sendFile(__dirname + "/pages/register.html"))
