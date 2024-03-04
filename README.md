@@ -1,0 +1,1 @@
+El proyecto trabaja con una base de datos local, para poder comprobar si funciona por favor mirar la base de datos llamada usuarios, agregele un nuevo usuario o borre alguno para ver su funcionamiento
